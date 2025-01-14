@@ -1,7 +1,7 @@
 # WEATHERAPP - Hava Durum Uygulaması
 
 
-weatherappproject/images/Mobile - Search.png
+(weatherappproject/images/Mobile - Search.png)
 
 
 
