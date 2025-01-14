@@ -1,6 +1,6 @@
 # WEATHERAPP - Hava Durum Uygulaması
 
-(eather-App-Project/images/Mobile - Home.png)
+(Weather-App-Project/images/Mobile - Home.png)
 (weather-App-Project/images/Mobile - Search.png)
 
 ## Welcome! 👋
