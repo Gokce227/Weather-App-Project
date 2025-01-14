@@ -1,4 +1,4 @@
-# WEATHERAPP - Hava Durum Uygulaması
+# WEATHER APP - Hava Durum Uygulaması
 
 
 ![Search Mobile](weatherappproject/images/Mobile-Search.png)
