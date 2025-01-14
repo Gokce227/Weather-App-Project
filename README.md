@@ -10,8 +10,6 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge.
-
 **To do this project, you need a basic understanding of HTML,CSS and Javascript.**
 
 ## The Project
