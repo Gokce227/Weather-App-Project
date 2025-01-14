@@ -30,10 +30,6 @@ Frontend Teknolojileri: HTML, CSS, Javascript.
 Hata Yönetimi: API sorgularında oluşabilecek hatalar (yanlış şehir adı, API limit aşımı vb.) kullanıcıya anlaşılır mesajlar halinde gösteriliyor.
 Hava Durumu İkonları: Mevcut hava durumunu yansıtan dinamik ikonlar veya görseller kullanıldı. 
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
-
 ## Building your project
-
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
 
 - Projeyi code kısmından zip halinde bilgisayarına indirerek kullanabilirsiniz.
