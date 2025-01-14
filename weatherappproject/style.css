@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     font-family: "Nunito", serif;
+     box-sizing: border-box;
+}
+
+body{
+     background-color: #1E1E29;
+}
+
+.card{
+     width: 100%;
+     max-width: 375px;
+     height: 812px;
+     background: url("images/Background.png") no-repeat;
+     margin: 5px auto 0;
+     padding: 12px;
+     text-align: center;
+}
+
+.card .card-header{
+         display: flex;
+          flex-direction: column;
+          gap: 150px;
+          padding: 36px ;
+     }
+
+
+.card .card-header .search{
+     margin: auto 0;
+     text-align: center;
+}
+
+
+.card .card-header .search .search-text h1{
+     font-weight: 700;
+     color: #FAFAFA;
+     line-height: 28px;
+     font-size: 20px;
+}
+
+.card .card-header .search .search-text h1 span{
+     font-weight: 700;
+     color: #8FB2F5;
+     line-height: 28px;
+     font-size: 20px;
+}
+
+.card .card-header .search .search-text p{
+     font-weight: 400;
+     color: #BFBFD4;
+     line-height: 19.6px;
+     font-size: 14px;
+     margin-bottom: 32px;
+}
+
+.card .card-header .search .search-input{
+     position: relative;
+}
+.card .card-header .search .search-input input{
+     width: 100%;
+     border: 0;
+     outline: 0;
+     background: #1E1E29;
+     color: #7F7F98;
+     padding: 20px 20px 20px ;
+     height: 56px;
+     border-radius: 8px;
+     flex: 1;
+     font-size: 16px;
+     margin-bottom: 8px;
+
+}
+
+.card .card-header .search .search-input .search-box{
+          width: 100%;
+          border: 0;
+          outline: 0;
+          background: #3B3B54;
+          color: #FAFAFA;
+          padding: 20px;
+          height: 56px;
+          border-radius: 8px;
+          flex: 1;
+          font-size: 16px;
+          display: none;
+}
+
+.card .card-header .search .search-input img{
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     right: 15px;
+     display: none;
+     opacity: 0;
+}
+.card .weather{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px 8px 8px 8px;
+    display: none;
+}
+
+.card .weather .card-weather{
+     padding: 12px;
+     background: #1C1C27 ;
+     background-image: url("images/Weather=Cloudy, Moment=Day.png");
+     background-repeat: no-repeat;
+     border-radius: 8px;
+     border: 10px solid #16161F;
+     display: flex;
+     flex-direction: column;
+     text-align: start; 
+}
+
+.card .weather .card-weather h2{
+     color: #FAFAFA;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 22.4px;
+}
+
+.card .weather .card-weather p{
+     color: #FAFAFA;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 16.8px;
+}
+
+.card .weather .card-weather .weather-icons{
+     display: flex;
+     justify-content: space-between;
+     padding-top: 100px;
+}
+
+
+.card .weather .card-weather .weather-icons img{
+     width: 160px;
+     height: 160px
+}
+
+.card .weather .card-weather .weather-icons div{
+  margin-top: 40px;
+}
+
+.card .weather .card-weather .weather-icons div .temp{
+     font-size: 48px;
+     line-height: 57.6px;
+     font-weight: 800;
+}
+
+.card .weather .card-weather .weather-icons div .temp-t{
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 22.4px;
+}
+
+.card .weather .details{
+     display: flex;
+     flex-direction: column;
+     padding: 0 16px;
+      background: #16161F;
+      border-radius: 12px;
+      margin-top: 8px;
+}
+
+.card .weather .details .col{
+     display: flex;
+     padding: 16px 0;
+     justify-content: space-between;
+     border-bottom: 0.1px solid #3B3B54; 
+}
+
+
+.card .weather .details .col .temp-1, .rain, .wind, .humidity, .uv{
+     color: #FAFAFA;
+}
+.card .weather .details .col div p{
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 19.6px;
+      color: #BFBFD4;
+}
+
+.card .weather .details .col p .temp{
+     color: #FAFAFA;
+     font-size: 16px;
+     line-height: 22.4px;
+}
+
+.card .weather .details .col:nth-child(5){
+     border-bottom: 0;
+}
+
+.card .weather .details .col div{
+     display: flex;
+     gap: 12px; 
+}
+
+.card .weather .next-days{
+     display: flex;
+     padding: 12px;
+     background: #16161F;
+     border-radius: 12px;
+     justify-content: space-between;
+     margin-top: 8px;
+}
+
+.card .weather .next-days .day-col img{
+     width: 56px;
+     height: 56px;
+}
+
+.card .weather .next-days .day-col p{
+     color: #BFBFD4;
+     font-size: 14px;
+     line-height: 19.6px;
+}
+
+.card .weather .next-days .day-col .high-temp{
+     color: #FAFAFA;
+}
+
+.error {
+     text-align: left;
+     margin-left: 10px;
+     font-size: 14px;
+     margin-top: 10px;
+    display: none;
+    color: #FAFAFA;
+}
