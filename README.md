@@ -2,6 +2,8 @@
 
 
 ![Search Mobile](weatherappproject/images/Mobile-Search.png)
+![Search Mobile](./images/Mobile-Search.png)
+
 
 
 
